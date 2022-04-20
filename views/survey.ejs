@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+
+        <form action="/details/save" class="" id="survey-form" method= post>
+
+            <div class="form-group">
+            <label for="name">Full Name:</label>
+            <input type="name" name="name" class="form-control" id="name" placeholder="Full name" required>
+            </div>
+            <div class="form-group">
+            <label for="email">Email address:</label>
+            <input type="email" name="email" class="form-control" id="email" placeholder="Email address" required>
+            </div>
+            <div class="form-group">
+                   <label style="color:black"><b>PLEASE COMPLETE THE QUESTIONS BELOW:</b></label>
+            </div>
+            <div class="form-group">
+                <label for="question">1.What is currently a priority for your business growth?</label>
+                <input type="text" name="answer1" id="answer1" class="formControl" placeholder="Please enter your answer" required>
+            </div>
+            <div class="form-group">
+                <label for="question">2.What are the gaps identified in the business?</label>
+                <input type="text" name="answer2" id="answer2" class="formControl" placeholder="Please enter your answer" required>
+            </div>
+            <div class="form-group">
+                <label for="question">3.To your knowledge, what is the cause of the gap(s)?</label>
+                <input type="text" name="answer3" id="answer3" class="formControl" placeholder="Please enter your answer" required>
+            </div>
+            <div class="form-group">
+                <label for="question">4.Which product is performing the best? And why? </label>
+                <input type="text" name="answer4" id="answer4" class="formControl" placeholder="Please enter your answer" required>
+            </div>
+            <div class="form-group">
+                <label for="question">5.Do you currently have a data strategy?</label>
+                <input type="text" name="answer5" id="answer5" class="formControl" placeholder="Please enter your answer" required>
+            </div>
+            <div class="form-group">
+                <label for="question">6.Do you currently have a customer success and retention strategy?</label>
+                <input type="text" name="answer6" id="answer6" class="formControl" placeholder="Please enter your answer" required>
+            </div>
+            <p>7.What is your current customer retention rate?</p>
+            <div class="form-group">
+                <div class="input-group ui-border padding-right mb-3">
+                    <i class="bi bi-file-text small"></i>
+                    <select name="answer7" id="answer7" type="text" class="formControl" required>
+                        <option value="">--Select one--</option>
+                        c
+                        <option value="10% - 20%">10% - 20%</option>
+                        <option value="20% - 30%">20% - 30%</option>
+                        <option value="30% - 40%">30% - 40%</option>
+                        <option value="40% - 50%">40% - 50%</option>
+                        <option value="50% and Above">50% and Above</option>
+                        <!-- <option value="60% - 70%">60% - 70%</option> -->
+                        <!-- <option value="70% - 80%">70% - 80%</option>
+                        <option value="80% - 90%">80% - 90%</option>
+                        <option value="90% - 100%">90% - 100%</option> -->
+                    </select>
+                </div>
+                </div>
+            <p>8.Which of the following business levers should be strengthened for your business success:</p>
+            <div class="form-group">
+                <div class="input-group ui-border padding-right mb-3">
+                    <i class="bi bi-file-text small"></i>
+                    <select name="answer8" id="answer8" type="text" class="formControl" required>
+                        <option value="">--Select one--</option>
+                        <option value="Competitor analysis">Competitor analysis</option>
+                        <option value="Customer strategy">Customer strategy</option>
+                        <option value="Product differentiation">Product differentiation</option>
+                        <option value="Sales channel">Sales channel</option>
+                        <option value="Marketing">Marketing</option>
+                        <option value="Technology solutions">Technology solutions</option>
+                    </select>
+                </div>
+                </div>
+            <div class="form-group">
+                <label for="question">9.Which tool do you currently use to manage and analyse customer data?</label>
+                <input type="text" name="answer9" id="answer9" class="formControl" placeholder="Please enter your answer" required>
+            </div>
+
+            <div class="form-group">
+                <label for="question">10.When last did you conduct a market intelligence study?</label>
+                <input type="text" name="answer10" id="answer10" class="formControl" placeholder="Please enter your answer" required>
+            </div>
+            <div class="form-group">
+                <label for="question">11.What is your current return on marketing investment (ROMI)?</label>
+                <input type="text" name="answer11" id="answer11" class="formControl" placeholder="Please enter your answer" required>
+            </div>
+            <div class="form-group">
+                <label for="question">12.What do customers say about your brand/business? </label>
+                <input type="text" name="answer12" id="answer12" class="formControl" placeholder="Please enter your answer" required>
+            </div>
+            <div class="form-group">
+                <label for="question">13.Please add your comments below:</label>
+                <input type="text" name="answer13" id="answer13" class="formControl" placeholder="Add your comment here" required>
+            </div>
+
+            <div class="form-group">
+                <button type="submit" onclick="submitdocument.location='/sucessPage'"();" id="submit"  class="btn">Submit</button>
+            </div>
+            <footer class="page-footer font-small black">
+
+                <div class="footer-copyright text-center py-5">© 2022 Copyright. All rights reserved.
+                <a href="https://www.analyticsadvert.com"> Analytics Advertising</a>
+                </div>
+                          
+            </footer>
+        </form>
