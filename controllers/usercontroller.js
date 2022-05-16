@@ -60,11 +60,11 @@ const add_answers = async(req, res) => {
 
           // send mail with defined transport object
           let info = await transporter.sendMail({
-            from: '"Kulani Mabuza" <kulani@analyticsadvert.com>',
-            to: "mrmabuzakk@gmail.com",
-            subject: "Solution Co-Creation Survey", 
-            text: "Hi, Please check the database, there is a new survey submission.",
-         html: "<h1>Hi,</h1><p>Please check the database, there is a new survey submission.</p>",
+            from: '"Kulani Mabuza" <mrmabuzakk@gmail.com>',
+            to: "Pearls@sellsmarter.co.za",
+            subject: "VW Questionnaire", 
+            text: "Hi, Please check the database, there is a new Questionnaire submission.",
+         html: "<h1>Hi,</h1><p>Please check the database, there is a new questionnaire submission.</p>",
           });
 
           console.log("Message sent: %s", info.messageId);
