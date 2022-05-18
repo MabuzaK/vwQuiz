@@ -1,4 +1,4 @@
-/*/*/*/*:root{
+/*:root{
     --color-white:#f3f3f3;
     --color-darkblue:Grey;
     --color-darkblue-alpha:rgba(13, 138, 187, 0.8);
@@ -62,8 +62,7 @@ input,button,select,textarea{
     width: 100%;
     /* margin: 3.125rem auto 0 auto; */
     /* padding:1.8rem 1rem; */
-}
-
+}*/
 .form {
   background:  #ffffff;
   border-radius:  4px; 
@@ -172,5 +171,3 @@ form {
     .news-input{
         max-width: 540px;
     }
-    
-*/*/*/*/

@@ -1,11 +1,11 @@
 const router = require("express").Router();
-const frontController = require('.../controllers/userController');
+const frontController = require('../controllers/userController');
 
 
 
 router.get("/", frontController.home)
 
-router.get("/Questionnaire", frontController.question)
+router.get("/Questionnaire", frontController.questions)
 
 router.get("/successPage", frontController.suc)
 
