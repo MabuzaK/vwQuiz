@@ -23,10 +23,6 @@ const frontendRoutes = require('./routes/index');
 
 app.use(frontendRoutes)
 
-app.get('/', (req, res)=>{
-    console.log()
-})
-
 // Port listening from
 const PORT = process.env.PORT || 8080
 app.listen(PORT, () => console.log(`Server running on port ${PORT}`))
